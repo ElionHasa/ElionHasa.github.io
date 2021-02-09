@@ -10,7 +10,7 @@
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 000);
+        }, 1000);
         return false;
       }
     }
